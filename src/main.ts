@@ -44,9 +44,19 @@ app.innerHTML = `
         <h1>EnkelTrain</h1>
         <p>Train a tiny GPT-style language model in your browser, then run it locally.</p>
       </div>
-      <div class="status-block">
-        <span class="status-dot" id="backend-dot"></span>
-        <span id="backend-label">Backend: checking</span>
+      <div class="topbar-actions">
+        <a
+          class="repo-button"
+          href="https://github.com/Aspenini/EnkelTrain"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View on GitHub
+        </a>
+        <div class="status-block">
+          <span class="status-dot" id="backend-dot"></span>
+          <span id="backend-label">Backend: checking</span>
+        </div>
       </div>
     </section>
 

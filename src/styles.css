@@ -46,6 +46,12 @@ button {
   margin-bottom: 24px;
 }
 
+.topbar-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
 h1,
 h2,
 p {
@@ -82,6 +88,25 @@ h2 {
   background: #181b20;
   color: #d7dce4;
   white-space: nowrap;
+}
+
+.repo-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid #303744;
+  border-radius: 8px;
+  background: #d5dde8;
+  color: #11161f;
+  font-weight: 760;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.repo-button:hover {
+  filter: brightness(0.96);
 }
 
 .status-dot {
