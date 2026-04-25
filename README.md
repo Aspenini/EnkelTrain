@@ -1,8 +1,8 @@
 # EnkelTrain
 
-[![Deploy to GitHub Pages](https://github.com/aspenfeltner/EnkelTrain/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/aspenfeltner/EnkelTrain/actions/workflows/deploy-pages.yml)
-[![Last Commit](https://img.shields.io/github/last-commit/aspenfeltner/EnkelTrain)](https://github.com/aspenfeltner/EnkelTrain/commits/main)
-[![GitHub Repo stars](https://img.shields.io/github/stars/aspenfeltner/EnkelTrain)](https://github.com/aspenfeltner/EnkelTrain/stargazers)
+[![Deploy to GitHub Pages](https://github.com/Aspenini/EnkelTrain/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Aspenini/EnkelTrain/actions/workflows/deploy-pages.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/Aspenini/EnkelTrain)](https://github.com/Aspenini/EnkelTrain/commits/main)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Aspenini/EnkelTrain)](https://github.com/Aspenini/EnkelTrain/stargazers)
 
 EnkelTrain is a local-first TypeScript web app for training a tiny GPT-style causal language model in the browser. It uses TensorFlow.js and automatically prefers WebGPU when the browser supports it, with WebGL/CPU fallback.
 
