@@ -1,0 +1,22 @@
+{
+  "name": "enkeltrain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgpu": "^4.22.0",
+    "fflate": "^0.8.2",
+    "libarchive.js": "^2.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^8.0.10"
+  }
+}
