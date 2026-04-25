@@ -27,21 +27,11 @@ jobs:
 
       - run: npm ci
 
-      - name: Set base path for GitHub Pages
-        id: base
-        run: |
-          REPO="${{ github.event.repository.name }}"
-          OWNER="${{ github.repository_owner }}"
-          if [ "$REPO" = "${OWNER}.github.io" ]; then
-            echo "path=/" >> "$GITHUB_OUTPUT"
-          else
-            echo "path=/$REPO/" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: ${{ steps.base.outputs.path }}
+          # Custom domain serves from root path (e.g. https://enkeltrain.aspenini.com/)
+          BASE_PATH: /
 
       - uses: actions/upload-pages-artifact@v3
         with:
